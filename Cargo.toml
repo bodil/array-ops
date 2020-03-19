@@ -1,0 +1,20 @@
+[package]
+name = "array-ops"
+version = "0.1.0"
+authors = ["Bodil Stokke <bodil@bodil.org>"]
+edition = "2018"
+license = "MPL-2.0+"
+description = "Automatic method implementations for array data types"
+repository = "https://github.com/bodil/array-ops"
+documentation = "http://docs.rs/array-ops"
+readme = "./README.md"
+categories = ["data-structures"]
+keywords = ["array"]
+exclude = ["release.toml"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[dependencies]
+rand_core = "0.5.1"
+rand_xoshiro = "0.4.0"
